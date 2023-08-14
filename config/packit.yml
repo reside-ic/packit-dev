@@ -61,8 +61,8 @@ proxy:
     ## 2. certificates from strings - include the strings directly in
     ##    the keys here, or more likely use a VAULT:<path>:<key>
     ##    string to extract them from the vault.
-    certificate: VAULT:secret/packit/ssl/dev:cert
-    key: VAULT:secret/packit/ssl/dev:key
+    certificate: VAULT:secret/packit/ssl/dev/cert:value
+    key: VAULT:secret/packit/ssl/dev/key:value
   hostname: packit-dev.dide.ic.ac.uk
   port_http: 80
   port_https: 443
